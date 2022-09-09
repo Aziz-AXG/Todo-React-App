@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: CascadiaCode-ExtraLight;
+}
+
+@font-face {
+    font-family: CascadiaCode-ExtraLight;
+    src: url(./font/CascadiaCode-ExtraLight.otf) format('truetype')
+}
+
+.main {
+    display: flex;
+    background: #181818;
+    min-height: 100vh;
+    justify-content: center;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.todoBox {
+    padding: 30px;
+    min-height: 300;
+    width: 320px;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+    margin: 30px;
+    border-radius: 10px;
+    border: 5px solid #01BF71;
+
+}
+
+h1 {
+    font-size: 36px;
+    color: #01BF71;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.listForm {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.input-todo-list {
+    outline: none;
+    background: #181818;
+    border: solid 2px #01BF71;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #01BF71;
+    width: 180px;
+    height: auto;
+}
+
+.todo-button {
+
+    border-radius: 25%;
+    margin: 5px;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    width: 50px;
+    border: solid 2px #01BF71;
+}
+
+
+.completedTodo {
+    text-decoration-style: solid;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.todoList {
+    display: flex;
+    outline: none;
+    height: 30px;
+    justify-content: space-around;
+    border-radius: 10px;
+    border: solid 2px #01BF71;
+    background: #181818;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+.completedTodo {
+    color: #01BF71;
+    outline: none;
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 16px;
+}
+
+.notDoneList {
+    outline: none;
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+}
+
+.doneBtn {
+    outline: none;
+    border: none;
+    background: none;
+    color: #01BF71;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.editBtn {
+    outline: none;
+    border: none;
+    background: none;
+    color: #00A6ED;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.editBtn::hover {
+    background: #fff;
+}
+
+
+.deleteBtn {
+    outline: none;
+    border: none;
+    background: none;
+    color: #E91E63;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+@media only screen and (max-width: 373px) {
+
+    .todo-button {
+        display: none;
+    }
+
+}

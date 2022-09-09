@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Todo-React-App/static/css/main.84ece83c.chunk.css",
+    "main.js": "/Todo-React-App/static/js/main.29ba01a4.chunk.js",
+    "main.js.map": "/Todo-React-App/static/js/main.29ba01a4.chunk.js.map",
+    "runtime-main.js": "/Todo-React-App/static/js/runtime-main.7a95aaf5.js",
+    "runtime-main.js.map": "/Todo-React-App/static/js/runtime-main.7a95aaf5.js.map",
+    "static/js/2.e64cd237.chunk.js": "/Todo-React-App/static/js/2.e64cd237.chunk.js",
+    "static/js/2.e64cd237.chunk.js.map": "/Todo-React-App/static/js/2.e64cd237.chunk.js.map",
+    "index.html": "/Todo-React-App/index.html",
+    "static/css/main.84ece83c.chunk.css.map": "/Todo-React-App/static/css/main.84ece83c.chunk.css.map",
+    "static/js/2.e64cd237.chunk.js.LICENSE.txt": "/Todo-React-App/static/js/2.e64cd237.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Todo-React-App/static/media/CascadiaCode-ExtraLight.dcd2ed3b.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a95aaf5.js",
+    "static/js/2.e64cd237.chunk.js",
+    "static/css/main.84ece83c.chunk.css",
+    "static/js/main.29ba01a4.chunk.js"
+  ]
+}
